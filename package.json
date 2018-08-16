@@ -1,0 +1,12 @@
+{
+  "name": "urbanero-homepage",
+  "version": "1.0.0",
+  "description": "Participatory urban design",
+  "repository": "https://github.com/urbanero/urbanero-homepage.git",
+  "author": "Ilja <ilja@urbanero.org>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  }
+}
