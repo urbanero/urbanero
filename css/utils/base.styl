@@ -1,13 +1,16 @@
 html
   color base-color
   font-family font
-  font-size baseFontSize / 16 * 100%
+  font-size base-size-mobile
   -webkit-font-smoothing antialiased
+  +medium()
+    font-size base-size
 
 
 p
   line-height leading
   margin-top leading
+  font-size baseFontSize/16*100%
   margin-bottom 0
 
 ul,
@@ -76,6 +79,7 @@ code
 
 img
   max-width 100%
+  vertical-align middle
 
 .lead
   font-size scale * 1rem
