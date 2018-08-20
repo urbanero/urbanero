@@ -6,16 +6,14 @@
   "author": "Ilja <ilja@urbanero.org>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel index.html && yarn run copy",
-    "build": "parcel build index.html --no-cache --public-url https://urbanero.org && yarn run copy",
-    "copy": "cp img/cover.jpg dist/img/ && cp img/prototype-preview-compressed.gif dist/img/"
+    "dev": "yarn run copy && parcel index.html",
+    "build": "yarn run copy && parcel build index.html --no-cache --public-url https://urbanero.org",
+    "copy": "copyfiles img/cover.jpg img/prototype-preview-compressed.gif dist/"
   },
   "devDependencies": {
     "autoprefixer": "^9.1.1",
-    "echo-js": "^1.7.3",
     "parcel-bundler": "^1.9.7",
     "postcss-modules": "^1.3.2",
-    "stylus": "^0.54.5",
-    "vanilla-lazyload": "8.15.0"
+    "stylus": "^0.54.5"
   }
 }
