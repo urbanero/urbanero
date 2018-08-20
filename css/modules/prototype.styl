@@ -6,13 +6,22 @@
   text-align center
 
 
+.prototype__functions
+  text-align center
+
+.prototype__features img
+  border 1px solid gray-light
+  border-radius 50%
+
 +medium()
   .prototype
     display grid
     grid-template-columns 1fr 1fr
 
+  .prototype__functions
+    grid-column span 2
 
-
+// mobile mockup
 .marvel-device img
   width 100%
 
@@ -20,3 +29,23 @@
   .marvel-device
     zoom: 0.8
 
+
+// browser mockup
+.browser-mockup {
+  border-top 2em solid rgba(230, 230, 230, 0.7)
+  position relative
+  border-radius 3px 3px 0 0;
+}
+
+.browser-mockup:before {
+  display block
+  position absolute
+  content ''
+  top -1.25em
+  left 1em
+  width 0.5em
+  height 0.5em
+  border-radius: 50%
+  background-color: #f44
+  box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5
+}
