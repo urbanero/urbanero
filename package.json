@@ -6,8 +6,9 @@
   "author": "Ilja <ilja@urbanero.org>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html --no-cache --public-url https://urbanero.org"
+    "dev": "yarn run copy && parcel index.html",
+    "build": "yarn run copy && parcel build index.html --no-cache --public-url https://urbanero.org",
+    "copy": "mkdir dist/img/ && cp img/cover.jpg dist/img/ && cp img/prototype-preview-compressed.gif dist/img/"
   },
   "devDependencies": {
     "autoprefixer": "^9.1.1",
