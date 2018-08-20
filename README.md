@@ -10,10 +10,16 @@ Urbanero has at its core principles that aim to provide a genuinely participator
 
 - [x] Create a basic prototype
 - [x] Put together a simple project homepage
-- [ ] Test and validate the prototype
+- [ ] Validate core concepts through research and testing
 - [ ] Build initial version of the app
 - [ ] Open source the project and the app
 
+
+## Contributing
+
+The project is currently in a research phase. The easiest way to contribute is to [answer a short questionaire](https://iljapanic.typeform.com/to/K3jJvl).
+
+If you have any suggestions, ideas or would like to help out with the initial development, please reach out at [info@urbanero.org](mailto:info@urbanero.org).
 
 
 
@@ -23,6 +29,4 @@ Urbanero has at its core principles that aim to provide a genuinely participator
 
 ## License
 
-This project is dedicated to public domain under the [Unlicense](https://unlicense.org/) - see the LICENSE.md file for details
-
-
+This project is dedicated to the public domain under the [Unlicense](https://unlicense.org/) - see the LICENSE.md file for details
