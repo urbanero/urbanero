@@ -1533,10 +1533,6 @@ duplexer2@~0.1.4:
   dependencies:
     readable-stream "^2.0.2"
 
-echo-js@^1.7.3:
-  version "1.7.3"
-  resolved "https://registry.yarnpkg.com/echo-js/-/echo-js-1.7.3.tgz#6cf040b4bdd23f950d0432e0283909d3fe90d8f8"
-
 editorconfig@^0.13.2:
   version "0.13.3"
   resolved "https://registry.yarnpkg.com/editorconfig/-/editorconfig-0.13.3.tgz#e5219e587951d60958fd94ea9a9a008cdeff1b34"
@@ -1796,10 +1792,6 @@ fs-minipass@^1.2.5:
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
-
-fs@^0.0.1-security:
-  version "0.0.1-security"
-  resolved "https://registry.yarnpkg.com/fs/-/fs-0.0.1-security.tgz#8a7bd37186b6dddf3813f23858b57ecaaf5e41d4"
 
 fsevents@^1.2.2:
   version "1.2.4"
@@ -4409,10 +4401,6 @@ util@^0.10.3:
 v8-compile-cache@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/v8-compile-cache/-/v8-compile-cache-2.0.2.tgz#a428b28bb26790734c4fc8bc9fa106fccebf6a6c"
-
-vanilla-lazyload@8.15.0:
-  version "8.15.0"
-  resolved "https://registry.yarnpkg.com/vanilla-lazyload/-/vanilla-lazyload-8.15.0.tgz#2a659a28eac6ab42ed968c31bf5e4962de327570"
 
 vendors@^1.0.0:
   version "1.0.2"
