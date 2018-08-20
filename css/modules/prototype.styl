@@ -23,8 +23,20 @@
   text-align center
   +medium()
     text-align right
-    padding-right spacing*4
+    padding-right spacing*3
+    padding-left spacing
 
+// DESKTOP
+.desktop__text
+  +medium()
+    padding-left spacing*2
+
+.desktop__preview
+  +medium()
+    padding-left spacing
+
+
+// IPHONE MOCKUP
 .marvel-device img
   width 100%
 
@@ -35,8 +47,7 @@
   .marvel-device
     zoom 0.8
 
-
-// BROWSER
+// BROWSER MOCKUP
 .browser-mockup
   border-top 2em solid rgba(230, 230, 230, 0.7)
   position relative
