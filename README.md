@@ -10,7 +10,7 @@ Urbanero is built on principles that aim to provide a citizen-centric platform w
 
 ![](https://raw.githubusercontent.com/urbanero/urbanero-homepage/master/img/prototype-preview-compressed.gif)
 
-[Link to the prototype](https://invis.io/FPNK7GEB5V7#/314793465_dahboard)
+[**Link to the prototype**](https://invis.io/FPNK7GEB5V7#/314793465_dahboard)
 
 
 ## Project roadmap
@@ -24,7 +24,7 @@ Urbanero is built on principles that aim to provide a citizen-centric platform w
 
 ## Contributing
 
-The project is currently in a research phase. The easiest way to contribute is to [answer a short questionaire](https://iljapanic.typeform.com/to/K3jJvl).
+The project is currently in a research phase. The easiest way to contribute is to [answer a short questionaire](https://urbanero.typeform.com/to/lPDAiA).
 
 If you have any suggestions, ideas or would like to help out with the initial development, please reach out at [info@urbanero.org](mailto:info@urbanero.org).
 
@@ -36,4 +36,4 @@ If you have any suggestions, ideas or would like to help out with the initial de
 
 ## License
 
-This project is dedicated to the public domain under the [Unlicense](https://unlicense.org/) - see the LICENSE.md file for details
+This project is dedicated to the public domain under the [Unlicense](https://unlicense.org/) - see the [LICENSE.md](https://github.com/urbanero/urbanero-homepage/blob/master/LICENSE.md) file for details
