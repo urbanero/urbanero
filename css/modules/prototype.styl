@@ -1,43 +1,48 @@
-.prototype
-  background-color gray-lightest
+/* general styles */
+.mobile,
+.desktop
   padding spacing*2 0
 
-.prototype__preview
-  text-align center
-
-
-.prototype__functions
-  text-align center
-
-.prototype__features img
-  border 1px solid gray-light
-  border-radius 50%
-
 +medium()
-  .prototype
+  .mobile,
+  .desktop
     display grid
     grid-template-columns 1fr 1fr
 
-  .prototype__functions
-    grid-column span 2
+.features-list
+  list-style-type none
+  padding 0
+  font-size 1.25rem
 
-// mobile mockup
+  li
+    margin-bottom spacing
+
+// MOBILE
+
+.mobile__preview
+  text-align center
+  +medium()
+    text-align right
+    padding-right spacing*4
+
 .marvel-device img
   width 100%
 
+.marvel-device
+  zoom 0.95
+
 +small()
   .marvel-device
-    zoom: 0.8
+    zoom 0.8
 
 
-// browser mockup
-.browser-mockup {
+// BROWSER
+.browser-mockup
   border-top 2em solid rgba(230, 230, 230, 0.7)
   position relative
   border-radius 3px 3px 0 0;
-}
 
-.browser-mockup:before {
+.browser-mockup:before
   display block
   position absolute
   content ''
@@ -48,4 +53,3 @@
   border-radius: 50%
   background-color: #f44
   box-shadow: 0 0 0 2px #f44, 1.5em 0 0 2px #9b3, 3em 0 0 2px #fb5
-}
