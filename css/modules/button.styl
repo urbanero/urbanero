@@ -1,9 +1,17 @@
 .btn,
 a.btn
-  background-color brand-900
-  color white
+  border 1px solid brand-900
   text-decoration none
   display inline-block
   padding spacing*0.15 spacing*0.5
   border-radius 0.25rem
   font-size 0.85rem
+  transition background-color 0.25s ease-in-out
+  &:hover
+    background-color brand-100
+
+  &.btn--fill
+    background-color brand-900
+    color white
+    &:hover
+      background-color darken(brand-900, 25%)
