@@ -24,7 +24,7 @@ Urbanero is built on principles that aim to provide a citizen-centric platform w
 
 ## Contributing
 
-The project is currently in a research phase. The easiest way to contribute is to [answer a short questionaire](https://urbanero.typeform.com/to/lPDAiA).
+The project is currently in a research phase. The easiest way to contribute is to [answer a short questionaire](https://urbanero.typeform.com/to/qBTKrD).
 
 If you have any suggestions, ideas or would like to help out with the initial development, please reach out at [info@urbanero.org](mailto:info@urbanero.org).
 
