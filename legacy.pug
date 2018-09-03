@@ -1,0 +1,80 @@
+doctype html
+html
+  include includes/head.pug
+  body
+    main.main
+      section.intro
+        article.wrap
+          h1.visually-hidden Urbanero
+          .logo
+            img(src='img/logo.svg', alt='Urbanero logo - smartphone transposed over a cityscape')
+          p.lead
+            | Urbanero is a platform for participatory urban development and collective decision-making.
+          p
+            | The project has come about as part of the research for master thesis looking at design best practices for citizen participation smartphone apps. Compared to commercial platforms, existing participatory governance solutions lack in regards to ease-of-use, adoption and overall user experience. More often than not, they are just glorified contact forms which citizens can use to send one-directional messages into a void of their local bureaucracy.
+          p
+            | Urbanero is built on principles that aim to provide a citizen-centric platform where local governments can have genuine dialogue with their constituents leveraging increasingly ubiquitous access to smartphones.
+        .features.wrap.wrap--large.margin-l
+          .item
+            .item__image
+              img(src='img/icon-transparent.svg', alt='transparency - eye')
+            h3.item__title Transparent
+            p.item__text clear who is responsible for taking action
+          .item
+            .item__image
+              img(src='img/icon-democratic.svg', alt='democracy - thumbs up and down')
+            h3.item__title Democratic
+            p.item__text both supporters and opponents are heard
+          .item
+            .item__image
+              img(src='img/icon-bidirectional.svg', alt='bidirectional - two chat bubbles')
+            h3.item__title Bidirectional
+            p.item__text direct dialogue between government and citizens
+      section.mobile.bg-gray.margin-l
+        .mobile__preview
+          .marvel-device.iphone8.black
+            .top-bar
+            .sleep
+            .volume
+            .camera
+            .sensor
+            .speaker
+            .screen
+              img(src='img/prototype-mobile.png', data-src='img/prototype-preview-compressed.gif', alt='UI preview of the smartphone app')
+            .home
+            .bottom-bar
+        .mobile__text
+          h2 Give voice to citizens
+          ul.features-list
+            li create geolocated ideas, suggestions and initiatives
+            li browse and follow nearby activity
+            li vote and discuss
+            li see who is responsible for taking action
+            li track progress
+      section.desktop.bg-gray
+        .desktop__text
+          h2 Localized insight for authorities
+          ul.features-list
+            li a bird's eye view of local activity
+            li talk directly with citizens
+            li respond and take action
+            li provide cost and time frame estimates
+        .desktop__preview
+          .browser-mockup
+            img(src='img/prototype-desktop.png', alt='preview of desktop UI')
+      section.ta-center.margin-m
+        p.lead.wrap
+          | Urbanero is currently in a research phase with plans to develop the idea into a functioning platform based on the initial feedback.
+        ul.links-list
+          li
+            a.btn(href='https://goo.gl/forms/JijzSTa08JDX359r2', target='_blank') Test the prototype
+          li
+            a.btn.btn--fill(href='https://urbanero.typeform.com/to/qBTKrD', target='_blank') Answer a short survey
+        p.wrap.small.contact
+          | Get in touch at
+          a(href='mailto:info@urbanero.org') info@urbanero.org
+          |  if you have any suggestions or questions
+        .wrap.wrap
+          include includes/newsletter.pug
+    include includes/footer.pug
+    script(src='js/app.js')
